@@ -1,0 +1,16 @@
+pkgbase = flattr-icons-kde-kaosx-git
+	pkgdesc = Flattr is an icon theme for Linux desktops, the set is inspired by the latest flat design trend.
+	pkgver = 0.r240.7b3e70f
+	pkgrel = 2
+	url = https://github.com/KaOSx/flattr-icons-kde
+	arch = i686
+	arch = x86_64
+	license = CC BY-NC-SA 4.0
+	makedepends = git
+	provides = flattr-icon-theme
+	conflicts = flattr-icons,flattr-icon-theme,flattr-icon-theme-git
+	source = flattr-icons-kde-kaosx-git::git+https://github.com/KaOSx/flattr-icons-kde.git
+	md5sums = SKIP
+
+pkgname = flattr-icons-kde-kaosx-git
+
